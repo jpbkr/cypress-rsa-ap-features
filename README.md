@@ -8,6 +8,8 @@ This project was designed to practice my overall Cypress knowledge and perform a
 
 • Basic navigation, plus handling opening of new window and tab from different origin;
 • Multiple assertions throughout the suites;
+• Use of regular expressions;
+• Parent to child traverse on DOM Elements;
 • Interactions with:
   • Buttons;
   • Radio Buttons;
