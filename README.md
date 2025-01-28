@@ -1,8 +1,8 @@
-Test Automation with Cypress
+# Test Automation with Cypress
 
 This repository contains a test automation project developed with Cypress. The goal was to validate the functionalities of an automation practice page, ensuring that everything is working as expected.
 
-About the Project
+## About the Project
 
 This project was designed to practice my overall Cypress knowledge and perform automated tests, including:
 
@@ -19,7 +19,7 @@ This project was designed to practice my overall Cypress knowledge and perform a
   • Web Table testing;
   • Mouse Over feature.
 
-Technologies Used
+## Technologies Used
 
   • Cypress - Framework for end-to-end testing;
   • Javascript - Programming language;
@@ -28,26 +28,26 @@ Technologies Used
   • Node.js;
   • Github Actions (WIP)
 
-Installation and Configuration
+## Installation and Configuration
 
 Follow the steps bellow to install and configure the project:
 
 1. Installation of devDependencies:
    Make sure Node.js is installed.
    To install the devDependencies, run:
-
+```
 npm install
-
+```
 2. Running tests
    To open Cypress, run:
-
+```
 npx cypress open
-
+```
    To run the tests in headless mode (directly on terminal), run:
-
+```
 npx cypress run
-
-Project Structure
+```
+## Project Structure
 
 E2ERSAAPP
 ├── cypress
@@ -57,7 +57,7 @@ E2ERSAAPP
 ├── package.json               #Project dependencies, scripts, etc.
 ├── README.md                  #Project documentation
 
-Available Test Cases
+## Available Test Cases
 
 The bellow test cases are currently implemented.
 
@@ -121,13 +121,13 @@ cypress/e2e/thirdSection.cy.js (6 tests)
     ├── Visibility of Mouse Over Label
     ├── Clicking on top option
 
-Adding New Tests
+## Adding New Tests
 If you want to cover any features that you thought I left out or that may be added in future and think should be included:
 1. Create a new file in cypress/e2e folder and name it as follows: featureName.cy.js
 2. Try and use the best practices of Cypress to implement your specs.
 3. Run your tests to confirm they work as they should.
 
-Contribution
+## Contribution
 
 Feel free to report any issues you may find and to contribute to the project as well. To do so:
 1. Fork this repository
